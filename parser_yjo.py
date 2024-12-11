@@ -252,10 +252,6 @@ avito_vacancies_url = "https://api.avito.ru/job/v2/vacancies"
 sj_vacancies_url = "https://api.superjob.ru/2.0/vacancies/"
 
 
-headers = {'X-Api-App-Id' : 'v3.r.138675629.1b08282275f198c10779eb794c1e45919b231c2b.f7d459dd38d21c4693828ee2248cc1128d62e5f1',
-          'Content-Type': 'application / x - www - form - urlencoded'}
-
-
 sj_req = requests.get(sj_vacancies_url, headers=headers)
 zarplata_req = requests.get(zarplata_vacancies_url)
 hh_req = requests.get(hh_vacancies_url)
